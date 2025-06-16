@@ -57,7 +57,6 @@ import angularSVG from './angular.svg';
 import ansibleSVG from './ansible.svg';
 import atomSVG from './atom.svg';
 import azureSVG from './azure.svg';
-import bashSVG from './bash.svg';
 import bitbucketSVG from './bitbucket.svg';
 import bitbucketV2SVG from './bitbucketV2.svg';
 import bootstrapSVG from './bootstrap.svg';
@@ -178,7 +177,6 @@ export const assets = {
     ansibleSVG,
     atomSVG,
     azureSVG,
-    bashSVG,
     bitbucketSVG,
     bitbucketV2SVG,
     bootstrapSVG,
