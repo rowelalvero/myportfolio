@@ -238,7 +238,7 @@ export const workData = [
     {
         title: 'EATSEASY - A CROSS-PLATFORM FOOD ORDERING SYSTEM FOR FOOD COMBINATIONS AND CUSTOMIZATION',
         description: 'A Web and Mobile Application for Food Delivery Ordering and Customization',
-        bgImage: '/work-1.png',
+        bgImage: '/eatseasy.png',
     },
     {
         title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
