@@ -68,6 +68,24 @@ const About = ({isDarkMode}) => {
         <li>Information Assurance and Security (Data Privacy)</li>
       </ul>
     </motion.div>
+    {/* Add additional education entries if needed */}
+    <motion.div 
+      whileHover={{ scale: 1.02 }}
+      className='p-6 rounded-xl border-[0.5px] border-gray-400 dark:border-white 
+      hover:bg-lightHover dark:hover:bg-darkHover/50 hover:shadow-black 
+      dark:hover:shadow-white transition-all duration-300'
+    >
+      <div className='flex flex-col sm:flex-row justify-between'>
+        <h4 className='text-xl font-semibold text-gray-700 dark:text-white'>Full Stack Curriculum</h4>
+        <span className='text-gray-600 dark:text-white/80 text-sm sm:text-base'>The Odin Project - 2023</span>
+      </div>
+      <ul className='mt-4 pl-5 list-disc text-gray-600 dark:text-white/80'>
+        <li>Learnings:</li>
+        <li>MERN full stack development</li>
+        <li>Git and GitHub usage</li>
+        <li>Unix basics (Ubuntu)</li>
+      </ul>
+    </motion.div>
   </div>
 </motion.div>
         </motion.div>

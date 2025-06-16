@@ -239,26 +239,36 @@ export const workData = [
         title: 'EatsEasy: A Cross-Platform Food Ordering System for Food Combinations and Customization',
         description: 'A comprehensive food delivery platform that connects users with local restaurants, offering a seamless ordering experience through both web and mobile applications.',
         bgImage: '/eatseasy.png',
+        githubLink: 'https://github.com/rowelalvero/EatsEasy-Food-Application',
+        technologies: [assets.flutterSVG, assets.nodeSVG, assets.mongodbSVG, assets.firebase],
     },
     {
         title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
         description: 'A Multi-Vendor Veterinary Services Platform that connects pet owners with veterinary professionals, offering services such as consultations, vaccinations, and pet care products.',
         bgImage: '/petvax.png',
+        githubLink: 'https://github.com/rowelalvero/petvax-clinic-admin',
+        technologies: [assets.laravelSVG, assets.php, assets.vuejsSVG, assets.nodeSVG, assets.mysqlSVG],
     },
     {
         title: 'PUPFoodFinds – E-Commerce Web App',
         description: 'A campus-focused food ordering platform for the Polytechnic University of the Philippines, streamlining food selection, order processing, and digital transactions.',
         bgImage: '/pupfoodfnds.png',
+        githubLink: 'https://github.com/rowelalvero/EatsEasy-Food-Application',
+        technologies: [assets.csharpSVG, assets.aspnet, assets.mysqlSVG],
     },
     {
         title: 'Elementals: The Game',
         description: 'A 2D platformer game where players control a character with elemental powers to navigate through levels, solve puzzles, and defeat enemies.',
         bgImage: '/elemental.png',
+        githubLink: 'https://github.com/rowelalvero/Elemental',
+        technologies: [assets.unitySVG, assets.csharpSVG, assets.gitSVG],
     },
     {
         title: 'My Portfolio',
         description: "My personal website I created to showcase my skills and the projects I made in one place. Fun fact: It's the website you are looking at right now.",
         bgImage: '/myportfolio.png',
+        githubLink: 'https://github.com/rowelalvero/myportfolio',
+        technologies: [assets.reactSVG, assets.nextjsSVG, assets.tailwindSVG, assets.vercelSVG],
     },
 ]
 
