@@ -42,46 +42,34 @@ const About = ({isDarkMode}) => {
                 A BS Computer Science student, passionate about building dynamic and responsive web applications. Ready to apply skills and knowledge to develop innovative and user-friendly web solutions, and holds strong interests in Web Development, Artificial Intelligence, and Machine Learning.
             </p>
 
-            <motion.ul
-            initial={{ opacity: 0}}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 1 }}
-            className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
-                {infoList.map(({icon, iconDark, title, description}, index) => (
-                    <motion.li
-                    whileHover={{scale: 1.05}}
-                    className='border-0[0.5px] border-gray-400 rounded-xl p-6 
-                    cursor-pointer hover:bg-lightHover hover:-translate-y-1 
-                    duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
-                    key={index}>
-                        <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
-                        <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
-                        <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
-                    </motion.li>
-                ))}
-            </motion.ul>
-
-            {/* <motion.h4 
-            initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 1.3 }}
-            className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
-
-            <motion.ul 
-            initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 1.5 }}
-            className='flex items-center gap-3 sm:gap-5'>
-                {progLangs.map((tool, index) => (
-                    <motion.li 
-                    whileHover={{scale: 1.1}}
-                    className='flex items-center justify-center 
-                    w-12 sm:w-14 aspect-square border border0gray-400 
-                    rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
-                        <Image src={tool} alt='Tool' className='w-6 sm:w-7'/>
-                    </motion.li>
-                ))}
-            </motion.ul> */}
+            <motion.div 
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.8, delay: 1.2 }}
+  className='max-w-2xl'
+>
+  <h3 className='text-3xl font-Ovo mb-8'>Education</h3>
+  
+  <div className='flex flex-col gap-6 max-w-4xl mx-auto'>
+    <motion.div 
+      whileHover={{ scale: 1.02 }}
+      className='p-6 rounded-xl border-[0.5px] border-gray-400 dark:border-white 
+      hover:bg-lightHover dark:hover:bg-darkHover/50 hover:shadow-black 
+      dark:hover:shadow-white transition-all duration-300'
+    >
+      <div className='flex flex-col sm:flex-row justify-between'>
+        <h4 className='text-xl font-semibold text-gray-700 dark:text-white'>Bachelor of Science in Computer Science</h4>
+        <span className='text-gray-600 dark:text-white/80 text-sm sm:text-base'>Expected Graduation: 2026</span>
+      </div>
+      <p className='text-gray-600 dark:text-white/80 mt-2'>STI College San Jose Del Monte - May 2026</p>
+      <ul className='mt-4 pl-5 list-disc text-gray-600 dark:text-white/80'>
+        <li>Relevant coursework: Data Structures, Algorithms, Web Development, Machine Learning</li>
+        <li>Software Quality Assurance</li>
+        <li>Information Assurance and Security (Data Privacy)</li>
+      </ul>
+    </motion.div>
+  </div>
+</motion.div>
         </motion.div>
       </motion.div>
     </motion.div>
