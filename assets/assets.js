@@ -243,22 +243,22 @@ export const workData = [
     {
         title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
         description: 'A Multi-Vendor Veterinary Services Platform that connects pet owners with veterinary professionals, offering services such as consultations, vaccinations, and pet care products.',
-        bgImage: '/work-2.png',
+        bgImage: '/petvax.png',
     },
     {
         title: 'PUPFoodFinds – E-Commerce Web App',
         description: 'A campus-focused food ordering platform for the Polytechnic University of the Philippines, streamlining food selection, order processing, and digital transactions.',
-        bgImage: '/work-3.png',
+        bgImage: '/pupfoodfnds.png',
     },
     {
         title: 'Elementals: The Game',
         description: 'A 2D platformer game where players control a character with elemental powers to navigate through levels, solve puzzles, and defeat enemies.',
-        bgImage: '/work-4.png',
+        bgImage: '/elemental.png',
     },
     {
         title: 'My Portfolio',
         description: "My personal website I created to showcase my skills and the projects I made in one place. Fun fact: It's the website you are looking at right now.",
-        bgImage: '/work-4.png',
+        bgImage: '/myportfolio.png',
     },
 ]
 
