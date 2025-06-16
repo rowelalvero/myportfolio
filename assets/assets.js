@@ -236,23 +236,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'EATSEASY - A CROSS-PLATFORM FOOD ORDERING SYSTEM FOR FOOD COMBINATIONS AND CUSTOMIZATION',
+        description: 'A Web and Mobile Application for Food Delivery Ordering and Customization',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
+        description: 'A Multi-Vendor Veterinary Services Platform',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'PUPFoodFinds – E-Commerce Web App',
+        description: 'A campus-focused food ordering platform for the Polytechnic University of the Philippines, streamlining food selection, order processing, and digital transactions.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Elementals: The Game',
+        description: 'A 2D platformer game where players control a character with elemental powers to navigate through levels, solve puzzles, and defeat enemies.',
         bgImage: '/work-4.png',
     },
 ]
