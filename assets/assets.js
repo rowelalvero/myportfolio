@@ -242,7 +242,7 @@ export const workData = [
     },
     {
         title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
-        description: 'A Multi-Vendor Veterinary Services Platform',
+        description: 'A Multi-Vendor Veterinary Services Platform that connects pet owners with veterinary professionals, offering services such as consultations, vaccinations, and pet care products.',
         bgImage: '/work-2.png',
     },
     {
