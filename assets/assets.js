@@ -236,8 +236,8 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'EATSEASY - A CROSS-PLATFORM FOOD ORDERING SYSTEM FOR FOOD COMBINATIONS AND CUSTOMIZATION',
-        description: 'A Web and Mobile Application for Food Delivery Ordering and Customization',
+        title: 'EatsEasy: A Cross-Platform Food Ordering System for Food Combinations and Customization',
+        description: 'A comprehensive food delivery platform that connects users with local restaurants, offering a seamless ordering experience through both web and mobile applications.',
         bgImage: '/eatseasy.png',
     },
     {
@@ -253,6 +253,11 @@ export const workData = [
     {
         title: 'Elementals: The Game',
         description: 'A 2D platformer game where players control a character with elemental powers to navigate through levels, solve puzzles, and defeat enemies.',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'My Portfolio',
+        description: "My personal website I created to showcase my skills and the projects I made in one place. Fun fact: It's the website you are looking at right now.",
         bgImage: '/work-4.png',
     },
 ]
