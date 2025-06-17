@@ -85,7 +85,7 @@ const Work = ({ isDarkMode }) => {
   </div>
 )}
                                     {project.githubLink && (
-                                        <a href={project.githubLink} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                        <a href={project.githubLink} target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline">
                                             View on GitHub
                                         </a>
                                     )}
@@ -96,7 +96,7 @@ const Work = ({ isDarkMode }) => {
                 ))}
             </motion.div>
             
-            <motion.a 
+            {/* <motion.a 
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.1 }}
@@ -111,7 +111,7 @@ const Work = ({ isDarkMode }) => {
                     alt="Right arrow" 
                     className="w-4"
                 />
-            </motion.a>            
+            </motion.a>             */}
         </motion.div>
     )
 }
