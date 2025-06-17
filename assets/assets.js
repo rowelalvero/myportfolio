@@ -241,6 +241,8 @@ export const workData = [
         bgImage: '/eatseasy.png',
         githubLink: 'https://github.com/rowelalvero/EatsEasy-Food-Application',
         technologies: [assets.flutterSVG, assets.nodeSVG, assets.mongodbSVG, assets.firebase],
+        type: 'CS THESIS PROJECT',
+        status: 'Completed',
     },
     {
         title: 'PetVax: Development of a Multi-Vendor Veterinary Services',
@@ -248,6 +250,8 @@ export const workData = [
         bgImage: '/petvax.png',
         githubLink: 'https://github.com/rowelalvero/petvax-clinic-admin',
         technologies: [assets.laravelSVG, assets.php, assets.vuejsSVG, assets.nodeSVG, assets.mysqlSVG],
+        type: 'PERSONAL PROJECT',
+        status: 'Ongoing',
     },
     {
         title: 'PUPFoodFinds – E-Commerce Web App',
@@ -255,6 +259,8 @@ export const workData = [
         bgImage: '/pupfoodfnds.png',
         githubLink: 'https://github.com/rowelalvero/EatsEasy-Food-Application',
         technologies: [assets.csharpSVG, assets.aspnet, assets.mysqlSVG],
+        type: 'PERSONAL PROJECT',
+        status: 'Completed',
     },
     {
         title: 'Elementals: The Game',
@@ -262,6 +268,8 @@ export const workData = [
         bgImage: '/elemental.png',
         githubLink: 'https://github.com/rowelalvero/Elemental',
         technologies: [assets.unitySVG, assets.csharpSVG, assets.gitSVG],
+        type: 'PERSONAL PROJECT',
+        status: 'Completed',
     },
     {
         title: 'My Portfolio',
@@ -269,6 +277,8 @@ export const workData = [
         bgImage: '/myportfolio.png',
         githubLink: 'https://github.com/rowelalvero/myportfolio',
         technologies: [assets.reactSVG, assets.nextjsSVG, assets.tailwindSVG, assets.vercelSVG],
+        type: 'PERSONAL PROJECT',
+        status: 'Completed',
     },
 ]
 

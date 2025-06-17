@@ -8,7 +8,7 @@ const Header = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const words = ['Web Developer', 'Mobile Developer', 'Software Developer', 'Computer Science Student'];
+  const words = ['Web Developer', 'React Developer', 'Software Developer', 'Computer Science Student'];
   const typingSpeed = 50;
   const deletingSpeed = 50;
   const delayBetweenWords = 2000;

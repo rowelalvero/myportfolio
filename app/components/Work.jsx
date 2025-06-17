@@ -57,6 +57,7 @@ const Work = ({ isDarkMode }) => {
                         
                         {/* Project Content */}
                         <div className="p-6">
+                            <p className="text-gray-600 dark:text-gray-300">{project.type}</p>
                             <h2 className="text-2xl font-bold mb-2 dark:text-white">{project.title}</h2>
                             <p className="text-gray-600 dark:text-gray-300 mb-4">
                                 {project.status && (
@@ -69,21 +70,21 @@ const Work = ({ isDarkMode }) => {
                             
                             {(project.githubLink || project.technologies) && (
                                 <div className="border-t border-gray-200 dark:border-gray-700 pt-4 flex justify-between items-center">
-{project.technologies && (
-  <div className="flex gap-2">
-    {project.technologies.map((techPath, i) => (
-      <span key={i} className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm">
-        <Image 
-          src={techPath} 
-          alt="tech logo" 
-          width={40} 
-          height={40}
-          className="w-7 h-7"
-        />
-      </span>
-    ))}
-  </div>
-)}
+                                {project.technologies && (
+                                <div className="flex gap-2">
+                                    {project.technologies.map((techPath, i) => (
+                                    <span key={i} className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm">
+                                        <Image 
+                                        src={techPath} 
+                                        alt="tech logo" 
+                                        width={40} 
+                                        height={40}
+                                        className="w-7 h-7"
+                                        />
+                                    </span>
+                                    ))}
+                                </div>
+                                )}
                                     {project.githubLink && (
                                         <a href={project.githubLink} target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline">
                                             View on GitHub
