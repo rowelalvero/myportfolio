@@ -25,10 +25,6 @@ A modern, responsive, and beautifully animated portfolio website built with **Ne
 - [🛠️ Tech Stack & Technologies](#️-tech-stack--technologies)
 - [📂 Project Structure](#-project-structure)
 - [🎯 Featured Projects](#-featured-projects)
-- [💻 Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-  - [Available Scripts](#available-scripts)
 - [📩 Contact & Socials](#-contact-&-socials)
 - [📄 License](#-license)
 
@@ -129,46 +125,7 @@ The website highlights the following major projects built throughout my academic
     *   **Live Link:** [myportfolio-vxf8.vercel.app](https://myportfolio-vxf8.vercel.app/)
     *   **Repository:** [myportfolio](https://github.com/rowelalvero/myportfolio)
 
----
 
-## 💻 Getting Started
-
-Follow these steps to run the portfolio website locally on your machine.
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed (version 18.x or later is recommended).
-
-### Installation & Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/rowelalvero/myportfolio.git
-    cd myportfolio
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Run the local development server:**
-    ```bash
-    npm run dev
-    ```
-
-4.  **View in browser:**
-    Open [http://localhost:3000](http://localhost:3000) to inspect the website in action.
-
----
-
-### Available Scripts
-
-In the project directory, you can run:
-
-*   `npm run dev` - Runs the app in development mode with Next.js Turbopack.
-*   `npm run build` - Builds the production bundle of the application.
-*   `npm run start` - Runs the built application in production mode.
-*   `npm run lint` - Runs ESLint to check for code quality and styling violations.
 
 ---
 
