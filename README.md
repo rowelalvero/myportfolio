@@ -4,10 +4,12 @@
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Motion](https://img.shields.io/badge/Motion-12.18-FF007F?style=for-the-badge&logo=framer&logoColor=white)](https://motion.dev/)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://myportfolio-vxf8.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 A modern, responsive, and beautifully animated portfolio website built with **Next.js 15**, **React 19**, **Tailwind CSS v4**, and **Motion** (Framer Motion). This project serves as a central hub to showcase my skills, projects, education, and services as a Software Engineer.
+
+🔗 **Live Demo:** [https://myportfolio-vxf8.vercel.app/](https://myportfolio-vxf8.vercel.app/)
 
 ---
 
@@ -124,6 +126,7 @@ The website highlights the following major projects built throughout my academic
     *   **Description:** This personal portfolio site! Built to showcase my developer journey, skills, and projects in one polished interface.
     *   **Tech Stack:** React, Next.js, Tailwind CSS, Vercel
     *   **Status:** Completed
+    *   **Live Link:** [myportfolio-vxf8.vercel.app](https://myportfolio-vxf8.vercel.app/)
     *   **Repository:** [myportfolio](https://github.com/rowelalvero/myportfolio)
 
 ---
